@@ -1,11 +1,12 @@
 package com.example.cardiacrecorder;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.google.firebase.Timestamp;
+
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -30,8 +31,22 @@ public class infoadapter extends FirestoreRecyclerAdapter<Note,infoadapter.infov
         holder.systolic1.setText("Systolic pressure:  "+note.systolic);
         holder.dia1.setText("Diastolic pressure:  "+note.dia);
         holder.heart1.setText("Heart Rate:  "+note.heart);
-
         holder.comment1.setText("Comment:  "+note.cmnt);
+
+        holder.itemView.setOnClickListener((v)->{
+            Intent intent = new Intent(context, update_delete.class);
+            intent.putExtra("date", note.date);
+            intent.putExtra("time", note.time);
+            intent.putExtra("systolic", note.systolic);
+            intent.putExtra("diastolic", note.dia);
+            intent.putExtra("heart", note.heart);
+            intent.putExtra("cmnt", note.cmnt);
+
+            String docId = this.getSnapshots().getSnapshot(position).getId();
+            intent.putExtra("docId", docId);
+            context.startActivity(intent);
+
+        });
 
 
     }
