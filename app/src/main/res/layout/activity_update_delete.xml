@@ -47,6 +47,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"
@@ -63,6 +65,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"
@@ -79,6 +83,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"
@@ -95,6 +101,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"
@@ -111,6 +119,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"
@@ -127,6 +137,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:maxLines="1"
+            android:singleLine="true"
             android:background="@drawable/rounded_corner"
             android:gravity="center|center_vertical|left"
             android:fontFamily="@font/cantata_one"

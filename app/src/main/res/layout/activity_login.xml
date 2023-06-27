@@ -14,7 +14,7 @@
         android:id="@+id/login_icon"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="32dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/login"
         />
 
     <LinearLayout
@@ -51,6 +51,7 @@
             android:textSize="20sp"
             android:id="@+id/emailet"
             android:inputType="textEmailAddress"
+            android:fontFamily="@font/andada"
             android:background="@drawable/rounded_corner"
             android:layout_marginTop="12dp"
             android:padding="16dp"/>
@@ -63,6 +64,7 @@
             android:id="@+id/passwordet"
             android:inputType="textPassword"
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/andada"
             android:layout_marginTop="12dp"
             android:padding="16dp"/>
 
@@ -90,13 +92,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"/>
+            android:textSize="20sp"
+            android:text="Don't have an account? "/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:id="@+id/regbtn"
+            android:textSize="18sp"
+            android:textColor="@color/my_primary"
             android:text="Register Here"/>
     </LinearLayout>
 
