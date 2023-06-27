@@ -19,7 +19,7 @@ public class update_delete extends AppCompatActivity {
 
     EditText cmnt,dia,heart,systolic,time,date;
     ImageButton save;
-    Button btn;
+    Button dltbtn;
     String dater, timer, systolicr, diastolicr, heartr, cmntr, docId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class update_delete extends AppCompatActivity {
         time=findViewById(R.id.time);
         date=findViewById(R.id.date);
         save=findViewById(R.id.save);
+        dltbtn = findViewById(R.id.deletebtn);
 
         //receive data
         dater = getIntent().getStringExtra("date");
@@ -53,6 +54,8 @@ public class update_delete extends AppCompatActivity {
 
 
         save.setOnClickListener((v) ->saveNote());
+        dltbtn.setOnClickListener((v)->deleteRecordFromFirebase());
+
 
     }
     void saveNote()
@@ -97,16 +100,34 @@ public class update_delete extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful())
                 {
-                    Utility.showToast(update_delete.this,"info added successfully");
+                    Utility.showToast(update_delete.this,"Record is updated successfully");
                     finish();
                 }
                 else
                 {
-                    Utility.showToast(update_delete.this,"Failed while adding");
+                    Utility.showToast(update_delete.this,"Failed while updating");
                 }
             }
         });
+    }
 
+    void deleteRecordFromFirebase(){
+        DocumentReference documentReference;
+        documentReference=Utility.getCollectionReferenceForNotes().document(docId);
+        documentReference.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                if(task.isSuccessful())
+                {
+                    Utility.showToast(update_delete.this,"Record is deleted successfully");
+                    finish();
+                }
+                else
+                {
+                    Utility.showToast(update_delete.this,"Failed while deleting");
+                }
+            }
+        });
 
 
     }

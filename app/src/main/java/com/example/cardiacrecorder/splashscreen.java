@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class splashscreen extends AppCompatActivity {
     TextView app_name;
@@ -23,8 +25,17 @@ public class splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(getApplicationContext(),Login.class);
-                startActivity(i);
+                FirebaseUser currentuser = FirebaseAuth.getInstance().getCurrentUser();
+                if(currentuser==null)
+                {
+                    Intent i=new Intent(getApplicationContext(),Login.class);
+                    startActivity(i);
+                }
+                else{
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                }
+                finish();
+
             }
         },2000);
     }
