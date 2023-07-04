@@ -44,10 +44,11 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/my_primary"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:id="@+id/add_note_btn"
+
         android:src="@drawable/ic_baseline_add_24"/>
 
 
