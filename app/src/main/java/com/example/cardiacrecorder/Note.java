@@ -62,7 +62,14 @@ public class Note {
         this.cmnt = cmnt;
     }
 
-
+    public Note(String cmnt, String dia, String systolic, String heart, String time, String date) {
+        this.cmnt = cmnt;
+        this.dia = dia;
+        this.systolic = systolic;
+        this.heart = heart;
+        this.time = time;
+        this.date = date;
+    }
 }
 
 
