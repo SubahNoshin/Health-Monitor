@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:layout_marginVertical="16dp"
     android:layout_marginHorizontal="32dp"
-    tools:context=".Sign_up">
+    tools:context=".Sign_up"
+    android:id="@+id/SignUpScreen">
 
     <ImageView
         android:id="@+id/signup_icon"
