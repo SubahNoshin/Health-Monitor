@@ -41,8 +41,8 @@
 ## Mock up:
 <table>
   <tr> 
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/splash_mockup.jpg" height = "400px" width="600px"/></td>
-  </br>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/splash_mockup.jpg" height = "400px" width="600px"padding="50px"/></td>
+
   </tr>
   <tr>
   <td> <img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/login_mockup.jpg" height = "400px" width="600px" /> </td>
