@@ -25,8 +25,6 @@
   </tr>
   <tr>
   
-
-  
   
   <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/phn1.png" height = "400px" width="200px"/></td>
   <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/phn4.png" height = "400px" width="200px"/></td>
@@ -37,7 +35,6 @@
 </table>
 
 
-* A few more details to know <a href="https://github.com/SubahNoshin/Health-Monitor/wiki">Please Click Here</a>
 ## Mock up:
 <table>
   <tr> 
