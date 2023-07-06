@@ -1,12 +1,10 @@
 # CardiacRecorder
 
-* CardiacRecorder is a simple, useful and user-friendly android application to monitor a person's heart rate, BMI and blood pressure.
+* CardiacRecorder is a an mobile app to record ones health related records like systolic pressure,diastolic pressure,time of the taken record and other things.
 
-As people becoming more and more health conscious, keeping track of one's heart rate, BMI and blood pressure at different times becoming a very wanted activity of every day life. Our app 'CardiacRecoder' intends to help people in this regard.
-
-'CardiacRecorder' has a very intuitive UI, lots of features and a convinient experience to offer to its users. It has the ultimate capabilities to become a person's ultimate heart assistant!
-
-* Below are some screenshots of the app:
+This app actually increases the facility for keeping record of ones health related issues.It also provides the features for update and delete records.
+Eventually it will pave the way for reducing extra hassles for keeping info which were done in previous times.
+*  Some screenshots of the app are given below:
 
 <table>
   <tr> 
@@ -31,4 +29,4 @@ As people becoming more and more health conscious, keeping track of one's heart 
 </table>
 
 
-* More details about this android application project can be found <a href="https://github.com/abrarhasan3/CardiacRecorder/wiki">here</a>
+* A few more details to know <a href="https://github.com/SubahNoshin/Health-Monitor/wiki">Please Click Heree</a>
