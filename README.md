@@ -2,8 +2,14 @@
 
 * CardiacRecorder is a an mobile app to record ones health related records like systolic pressure,diastolic pressure,time of the taken record and other things.
 
-This app actually increases the facility for keeping record of ones health related issues.It also provides the features for update and delete records.
+*This app actually increases the facility for keeping record of ones health related issues.It also provides the features for update and delete records.
 'Eventually it will pave the way for reducing extra hassles for keeping info which were done in previous times.
+## Objectives:
+*To measure the systolic,diastolic pressure and keeping heart rate.
+*To keep record the time at which one record is taken.
+*To Update and Delete the previously taken informations.
+
+## ScreenShots:
 *  Some screenshots of the app are given below:
 
 <table>
