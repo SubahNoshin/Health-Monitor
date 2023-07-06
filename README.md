@@ -29,4 +29,4 @@ This app actually increases the facility for keeping record of ones health relat
 </table>
 
 
-* A few more details to know <a href="https://github.com/SubahNoshin/Health-Monitor/wiki">Please Click Heree</a>
+* A few more details to know <a href="https://github.com/SubahNoshin/Health-Monitor/wiki">Please Click Here</a>
