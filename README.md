@@ -10,7 +10,7 @@ As people becoming more and more health conscious, keeping track of one's heart 
 
 <table>
   <tr> 
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/splash.jpg.png" height = "400px" width="200px"/></td>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/splash.jpg" height = "400px" width="200px"/></td>
   <td> <img src = "https://user-images.githubusercontent.com/51283472/181596035-78b6f6f9-e0c8-478a-9291-fc92e483a09e.png" height = "400px" width="200px" /> </td>
   <td><img src = "https://user-images.githubusercontent.com/51283472/181596065-9db7f5da-38dc-46da-a04a-66807888acbf.png" height = "400px" width="200px" /></td>
   <td><img src = "https://user-images.githubusercontent.com/51283472/181597038-ad2df1a6-e769-4d7f-889e-55c19ffef6b1.png" height = "400px" width="200px"/></td>
