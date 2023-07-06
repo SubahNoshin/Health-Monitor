@@ -44,22 +44,22 @@
   <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/splash_mockup.jpg" height = "400px" width="600px"/></td>
   </tr>
   <tr>
-  <td> <img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/login_mockup.jpg" height = "400px" width="400px" /> </td>
+  <td> <img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/login_mockup.jpg" height = "400px" width="600px" /> </td>
     </tr>
    <tr>
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/signup_mockup.jpg" height = "400px" width="400px" /></td>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/signup_mockup.jpg" height = "400px" width="600px" /></td>
 </tr>
   <tr>
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/home_mockup.jpg" height = "400px" width="400px"/></td>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/home_mockup.jpg" height = "400px" width="600px"/></td>
  
   </tr>
   
   <tr>
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/add_mockup.jpg" height = "400px" width="400px"/></td>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/add_mockup.jpg" height = "400px" width="600px"/></td>
     </tr>
    
       <tr>
-  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/update_mockup.jpg" height = "400px" width="400px"/></td>
+  <td><img src = "https://github.com/SubahNoshin/Health-Monitor/blob/main/update_mockup.jpg" height = "400px" width="600px"/></td>
 
   </tr>
 
