@@ -66,4 +66,4 @@
 
 </table>
 
-
+* A few more details to know <a href="https://github.com/SubahNoshin/Health-Monitor/wiki">Please Click Here</a>
